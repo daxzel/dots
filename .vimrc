@@ -4,7 +4,7 @@ let mapleader = "-"
 " Line numbers
 set number
 
-" Plugins
+"+Plugins
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -18,7 +18,7 @@ Plugin 'flazz/vim-colorschemes'
 call vundle#end()
 filetype plugin indent on
 
-" Tabs
+"Tabs
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -37,17 +37,24 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Easier moving of code blocks
+vnoremap < <gv " better indentation
+vnoremap > >gv " better indentation
+
+" Show whitespace
+" MUST be inserted BEFORE the colorscheme command
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+au InsertLeave * match ExtraWhitespace /\s\+$/
 " Colors
 syntax on
 set t_Co=256
 color wombat256mod
 
-" load up the nerd tree
+" Load up the nerd tree
 autocmd vimenter * NERDTree
 map <Leader>t <plug>NERDTreeTabsToggle<CR>
-" move nerdtree to the right
+" Move nerdtree to the right
 let g:NERDTreeWinPos = "right"
-" move to the first buffer
+" Move to the first buffer
 autocmd VimEnter * wincmd p
-
 
