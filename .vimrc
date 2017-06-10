@@ -4,7 +4,7 @@ let mapleader = "-"
 " Line numbers
 set number
 
-"+Plugins
+" Plugins
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -36,6 +36,10 @@ set smartcase
 set nobackup
 set nowritebackup
 set noswapfile
+
+" Remap
+set pastetoggle=<Leader>p
+set clipboard=unnamed
 
 " Easier moving of code blocks
 vnoremap < <gv " better indentation

@@ -8,5 +8,7 @@ BASEDIR=$(dirname "$0")
 echo "setup dir: $BASEDIR"
 
 cp $BASEDIR/.vimrc ~/
-
 vim +PluginInstall +qall
+
+cp $BASEDIR/.tmux.conf ~/
+tmux source-file ~/.tmux.conf
