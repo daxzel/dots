@@ -9,6 +9,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 filetype plugin indent on
@@ -35,3 +36,7 @@ set smartcase
 set nobackup
 set nowritebackup
 set noswapfile
+
+" Colors
+colorscheme molokai
+syntax on
