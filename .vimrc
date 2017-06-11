@@ -54,11 +54,15 @@ syntax on
 set t_Co=256
 color wombat256mod
 
-" Load up the nerd tree
-autocmd vimenter * NERDTree
-map <Leader>t <plug>NERDTreeTabsToggle<CR>
-" Move nerdtree to the right
-let g:NERDTreeWinPos = "right"
-" Move to the first buffer
-autocmd VimEnter * wincmd p
+autocmd vimenter * if !argc() | NERDTree | endif
 
+" Open nerdtree by default
+let g:NERDTreeWinPos = "right"
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd VimEnter * execute "normal 30\<C-Y>"
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+map <Leader>t <plug>NERDTreeTabsToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
