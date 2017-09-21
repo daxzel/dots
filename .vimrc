@@ -38,7 +38,6 @@ set nowritebackup
 set noswapfile
 
 " Remap
-set pastetoggle=<Leader>p
 set clipboard=unnamed
 
 " Easier moving of code blocks
