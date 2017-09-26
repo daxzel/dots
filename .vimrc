@@ -68,3 +68,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " make backspace work
 set backspace=indent,eol,start
+
+set nofoldenable    " disable folding
