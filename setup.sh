@@ -22,6 +22,6 @@ tmux source-file ~/.tmux.conf
 
 cp $BASEDIR/.zsh_atcarevs ~/
 if grep -q zsh_atcarevs ~/.zshenv; then
-    echo ~/.zsh_atcarevs >> ~/.zshenv
+    echo "source ~/.zsh_atcarevs" >>! ~/.zshenv
 fi
 
