@@ -1,1 +1,3 @@
 unsetopt CLOBBER
+
+alias path="echo \"${PATH//:/\\n}\""
