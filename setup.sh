@@ -25,3 +25,6 @@ if grep -q zsh_atcarevs ~/.zshenv; then
     echo "source ~/.zsh_atcarevs" >>! ~/.zshenv
 fi
 
+# AUTO STASH
+git config  --global rebase.autoStash true
+
