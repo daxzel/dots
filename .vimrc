@@ -71,3 +71,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 set backspace=indent,eol,start
 
 set nofoldenable    " disable folding
+
+" Fix fast shift exiting
+command! Wq :wq
+command! W :w
+
