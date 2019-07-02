@@ -75,4 +75,5 @@ set nofoldenable    " disable folding
 " Fix fast shift exiting
 command! Wq :wq
 command! W :w
+command! Q :q
 
