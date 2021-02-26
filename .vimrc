@@ -68,18 +68,12 @@ colorscheme gruvbox
 set background=dark
 
 
-autocmd vimenter * if !argc() | NERDTree | endif
-
-" Open nerdtree by default
-let g:NERDTreeWinPos = "right"
-autocmd vimenter * NERDTree
-autocmd VimEnter * wincmd p
-autocmd VimEnter * execute "normal 30\<C-Y>"
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
-map <Leader>t <plug>NERDTreeTabsToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" CTRLP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 " make backspace work
 set backspace=indent,eol,start
