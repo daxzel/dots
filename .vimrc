@@ -44,7 +44,7 @@ set noswapfile
 " Code view
 set nowrap
 
-" 
+" Undo directory
 set undodir=~/.vim/undodir
 set undofile
 
@@ -64,7 +64,9 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 " Colors
 syntax on
 set t_Co=256
-color wombat256mod
+colorscheme gruvbox
+set background=dark
+
 
 autocmd vimenter * if !argc() | NERDTree | endif
 
