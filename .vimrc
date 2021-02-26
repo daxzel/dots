@@ -11,10 +11,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'scrooloose/nerdtree'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'tpope/vim-surround'
+Plugin 'morhetz/gruvbox'
+Plugin 'jremmen/vim-ripgrep'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'valloric/youcompleteme'
+Plugin 'mbbill/undotree'
 
 call vundle#end()
 filetype plugin indent on
