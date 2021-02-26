@@ -69,11 +69,12 @@ set background=dark
 
 
 " CTRLP
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<NUL>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_use_caching = 0
 
 " make backspace work
 set backspace=indent,eol,start
