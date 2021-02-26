@@ -28,3 +28,5 @@ fi
 # AUTO STASH
 git config  --global rebase.autoStash true
 
+
+mkdir ~/.vim/undodir

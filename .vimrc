@@ -39,6 +39,13 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Code view
+set nowrap
+
+" 
+set undodir=~/.vim/undodir
+set undofile
+
 set noerrorbells
 
 " Remap
