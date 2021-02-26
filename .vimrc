@@ -38,6 +38,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+set noerrorbells
+
 " Remap
 set clipboard=unnamed
 
