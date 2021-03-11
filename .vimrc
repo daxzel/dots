@@ -50,9 +50,6 @@ set undofile
 
 set noerrorbells
 
-" Remap
-set clipboard=unnamed
-
 " Easier moving of code blocks
 vnoremap < <gv " better indentation
 vnoremap > >gv " better indentation
