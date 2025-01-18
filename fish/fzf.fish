@@ -28,9 +28,10 @@ function _fzf_uninstall --on-event fzf_uninstall
     set_color normal
 end
 
-bind --mode default -k sr _fzf_search_history
-bind --mode insert -k sr _fzf_search_history
+# For history search (Alt + Up Arrow)
+bind --mode default \e\[1\;2A _fzf_search_history
+bind --mode insert \e\[1\;2A _fzf_search_history
 
-bind --mode default -k sright _fzf_search_directory
-bind --mode insert -k sright _fzf_search_directory
-
+# For directory search (Alt + Right Arrow)
+bind --mode default \e\[1\;2C _fzf_search_directory
+bind --mode insert \e\[1\;2C _fzf_search_directory
