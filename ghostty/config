@@ -1,0 +1,13 @@
+background-opacity = 0.9
+
+window-padding-x = 10
+window-padding-y = 10
+
+keybind = cmd+left=previous_tab
+keybind = cmd+right=next_tab
+
+cursor-style = block
+shell-integration-features = no-cursor
+cursor-opacity = 0.5
+cursor-color = #88c0d0
+cursor-style-blink = true
