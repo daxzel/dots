@@ -1,22 +1,22 @@
-"======= WINDOW APPEARANCE START =======
+#======= WINDOW APPEARANCE START =======
 
 background-opacity = 0.9
 
 window-padding-x = 10
 window-padding-y = 10
 
-"======= WINDOW APPEARANCE END =======
+#======= WINDOW APPEARANCE END =======
 
 
-"======= KEYBINDINGS START =======
+#======= KEYBINDINGS START =======
 
 keybind = cmd+left=previous_tab
 keybind = cmd+right=next_tab
 
-"======= KEYBINDINGS END =======
+#======= KEYBINDINGS END =======
 
 
-"======= CURSOR SETTINGS START =======
+#======= CURSOR SETTINGS START =======
 
 cursor-style = block
 shell-integration-features = no-cursor
@@ -24,4 +24,11 @@ cursor-opacity = 0.5
 cursor-color = #88c0d0
 cursor-style-blink = true
 
-"======= CURSOR SETTINGS END =======
+#======= CURSOR SETTINGS END =======
+
+#======= QUICK REOPEN =======
+
+confirm-close-surface=false
+window-save-state=never
+
+#======= QUICK REOPEN =======
