@@ -13,3 +13,5 @@
 - Focus on concise, readable code
 - Let the code speak for itself when possible
 - Add comments only for complex logic or when clarification is needed
+- Always replace old implementations completely - don't keep previous code for compatibility
+- Remove deprecated or unused code rather than commenting it out
