@@ -1,4 +1,4 @@
-# Code Style Preferences
+# Style and Language Guidelines
 
 ## Comment Guidelines
 
@@ -15,3 +15,9 @@
 - Add comments only for complex logic or when clarification is needed
 - Always replace old implementations completely - don't keep previous code for compatibility
 - Remove deprecated or unused code rather than commenting it out
+
+## Language Guidelines
+
+- Avoid using the word "comprehensive" in responses and documentation
+- Use alternatives like "detailed", "thorough", "complete", or "full" instead
+- Keep language clear and direct without overused bu
