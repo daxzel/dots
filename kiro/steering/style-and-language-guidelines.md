@@ -20,4 +20,3 @@
 
 - Avoid using the word "comprehensive" in responses and documentation
 - Use alternatives like "detailed", "thorough", "complete", or "full" instead
-- Keep language clear and direct without overused bu
