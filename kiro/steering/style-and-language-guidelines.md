@@ -21,6 +21,17 @@
 - Avoid using the word "comprehensive" in responses and documentation
 - Use alternatives like "detailed", "thorough", "complete", or "full" instead
 
+## MCP Server Usage
+
+- Prioritize using MCP servers to get more information and background
+
+## Decision Making with Sequential Thinking
+
+- Use sequential thinking for problems
+- Break down multi-faceted decisions into logical thought processes
+- Document your reasoning process to help users understand the decision-making logic
+- Use the sequential thinking tool to work through problems methodically
+
 ## Memory MCP Usage
 
 - Store only fundamental, long-term relevant knowledge that remains valuable over months
