@@ -20,3 +20,19 @@
 
 - Avoid using the word "comprehensive" in responses and documentation
 - Use alternatives like "detailed", "thorough", "complete", or "full" instead
+
+## Memory MCP Usage
+
+- Store only fundamental, long-term relevant knowledge that remains valuable over months
+- Focus on storing:
+  - User preferences and working style
+  - Core technical knowledge and architectural patterns
+  - Fundamental project information (purpose, tech stack, key components)
+  - Important relationships between systems or concepts
+- Avoid storing temporary information like:
+  - Specific tickets or issues
+  - Current task details
+  - Time-sensitive information
+  - Implementation details that change frequently
+- Use memory to maintain continuity across conversations without cluttering with ephemeral data
+- Search the knowledge graph when you need to recall established context or user background
