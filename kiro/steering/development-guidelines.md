@@ -1,4 +1,4 @@
-# Style and Language Guidelines
+# Development Guidelines
 
 ## Comment Guidelines
 
@@ -15,6 +15,14 @@
 - Add comments only for complex logic or when clarification is needed
 - Always replace old implementations completely - don't keep previous code for compatibility
 - Remove deprecated or unused code rather than commenting it out
+
+## Implementation Strategy
+
+- Always modify existing implementations directly unless specifically asked to create new ones
+- Don't create "fixed", "enhanced", or "improved" versions alongside existing code
+- Replace the current implementation in place rather than adding alternatives
+- Only create separate implementations when explicitly requested by the user
+- When making changes, update the existing code structure rather than duplicating it
 
 ## Language Guidelines
 
