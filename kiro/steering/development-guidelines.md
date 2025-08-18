@@ -1,5 +1,16 @@
 # Development Guidelines
 
+## Security Guidelines
+
+- Never share or commit security keys, credentials, or sensitive information
+- Do not include AWS account IDs, access keys, secret keys, or session tokens in code
+- Avoid sharing API keys, database passwords, or authentication tokens
+- Use environment variables or secure credential management systems for sensitive data
+- Replace any exposed credentials immediately if accidentally shared
+- Use placeholder values like `[AWS_ACCOUNT_ID]`, `[API_KEY]`, or `[SECRET]` in examples
+- Review code for hardcoded credentials before committing
+- Follow the principle of least privilege for access permissions
+
 ## Comment Guidelines
 
 - Keep comments minimal and only when necessary
