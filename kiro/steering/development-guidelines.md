@@ -27,6 +27,14 @@
 - Always replace old implementations completely - don't keep previous code for compatibility
 - Remove deprecated or unused code rather than commenting it out
 
+## Clarity and Communication
+
+- Ask clarifying questions when requirements or intent are unclear
+- Don't make assumptions about what the user wants - seek clarification instead
+- Better to ask a quick question than to implement the wrong solution
+- If multiple interpretations are possible, present options and ask for direction
+- Confirm understanding of complex or ambiguous requests before proceeding
+
 ## Implementation Strategy
 
 - Always modify existing implementations directly unless specifically asked to create new ones
