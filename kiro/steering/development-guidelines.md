@@ -52,6 +52,13 @@
 
 - Prioritize using MCP servers to get more information and background
 
+## CLI and Tool Usage
+
+- Don't add unnecessary CLI tools or commands unless explicitly requested by the user
+- Focus on the core functionality needed to solve the problem
+- Only suggest additional tools when they directly address the user's stated requirements
+- Avoid over-engineering solutions with extra tooling
+
 ## Decision Making with Sequential Thinking
 
 - Use sequential thinking for problems
