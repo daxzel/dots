@@ -59,12 +59,11 @@
 - Only suggest additional tools when they directly address the user's stated requirements
 - Avoid over-engineering solutions with extra tooling
 
-## Decision Making with Sequential Thinking
+## Documentation Guidelines
 
-- Use sequential thinking for problems
-- Break down multi-faceted decisions into logical thought processes
-- Document your reasoning process to help users understand the decision-making logic
-- Use the sequential thinking tool to work through problems methodically
+- Do not create additional markdown files to document your work unless explicitly requested
+- Avoid creating summary documents, progress reports, or implementation notes
+- Keep documentation within the code itself when necessary
 
 ## Memory MCP Usage
 
