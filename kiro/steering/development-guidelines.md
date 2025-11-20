@@ -80,3 +80,17 @@
   - Implementation details that change frequently
 - Use memory to maintain continuity across conversations without cluttering with ephemeral data
 - Search the knowledge graph when you need to recall established context or user background
+
+## Documentation Writing Style
+
+- Write in a natural, conversational tone that sounds human
+- Avoid overly formal or robotic language patterns
+- Don't use phrases like "it's worth noting", "it's important to note", "please note"
+- Skip unnecessary qualifiers like "simply", "just", "easily", "clearly"
+- Avoid corporate jargon and buzzwords
+- Use active voice instead of passive voice
+- Write directly and get to the point without preamble
+- Vary sentence structure and length naturally
+- Don't over-explain obvious things
+- Use contractions when appropriate (it's, don't, you'll)
+- Write like you're explaining to a colleague, not presenting to executives
