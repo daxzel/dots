@@ -94,3 +94,10 @@
 - Don't over-explain obvious things
 - Use contractions when appropriate (it's, don't, you'll)
 - Write like you're explaining to a colleague, not presenting to executives
+
+## Diagram Preferences
+
+- When creating diagrams or graphs, use DrawIO XML format (.drawio files)
+- DrawIO XML is preferred for architecture diagrams, flowcharts, and sequence diagrams
+- Store diagrams in separate .drawio files rather than embedding ASCII art in markdown
+
