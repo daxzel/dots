@@ -22,7 +22,7 @@ This file distills how I write and review design documents. When you help me on 
 - Glossary near the top. One-line entries. Cross-reference a Core Abstractions section for anything that needs more than a line.
 - Use abstractions sections to define reusable concepts. Define each concept once and refer to it by name everywhere else.
 - Architecture should describe data flow as numbered steps; one verb per step.
-- Use appendices for query shapes, scope rationale, inventories, and reused infrastructure, not for prose.
+- Use appendices for query shapes, scope rationale, inventories, and reused infrastructure. Don't put regular explanatory paragraphs in appendices - those belong in the body.
 
 ## Avoid AI-style writing
 
