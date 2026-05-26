@@ -45,11 +45,6 @@ These patterns read as AI-generated. Don't use them:
 - For pipelines, describe what each stage adds, not just the topology.
 - When something is undecided, mark it as a decision the LLD will resolve. Don't pretend it's settled.
 
-## Don't mix layers
-
-- HLD covers what and why. LLDs cover how. Keep specific column names, exact SQL, and operational thresholds out of the HLD body; put them in appendices or in the LLD.
-- When the HLD body has to mention an LLD, refer to it generically ("decided in the LLD") rather than naming specific LLDs by full title in prose. Specific named LLDs only belong in the milestone deliverable list.
-
 ## Diagrams
 
 - Architecture diagrams in DrawIO XML (`.drawio`), stored as separate files.
